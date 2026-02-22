@@ -1,4 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from "react";
+import F1Simulator from './F1Simulator';
 
 // ─── MOCK DATA ────────────────────────────────────────────────────────────────
 const SEASONS = [2024, 2023, 2022, 2021, 2020];
@@ -1933,7 +1934,7 @@ export default function App() {
 
       {page === "home" && <Landing setPage={setPage} />}
       {page === "autopsy" && <RaceAutopsy user={user} addToast={addToast} setShowAuth={() => setShowAuth(true)} />}
-      {page === "simulator" && <Simulator user={user} addToast={addToast} setShowAuth={() => setShowAuth(true)} />}
+      {page === "simulator" && <F1Simulator />}
       {page === "leaderboard" && <Leaderboard />}
       {page === "teams" && <TeamDashboard user={user} setShowAuth={() => setShowAuth(true)} />}
 
