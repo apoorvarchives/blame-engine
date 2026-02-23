@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef, useCallback } from "react";
 import F1Simulator from './F1Simulator';
-
+<h1 style={{color:"yellow"}}>NOW IT WILL CHANGE</h1>
 // ─── MOCK DATA ────────────────────────────────────────────────────────────────
 const SEASONS = [2024, 2023, 2022, 2021, 2020];
 const GRANDS_PRIX = [
@@ -93,12 +93,19 @@ const css = `
   html { scroll-behavior: smooth; }
   
   body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: var(--font-body);
-    min-height: 100vh;
-    overflow-x: hidden;
-  }
+  background:
+    linear-gradient(rgba(8,8,8,0.85), rgba(8,8,8,0.85)),
+    url('/bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color: var(--text);
+  font-family: var(--font-body);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
 
   /* Scrollbar */
   ::-webkit-scrollbar { width: 4px; height: 4px; }
@@ -822,8 +829,7 @@ function Landing({ setPage }) {
           </div>
           <h1 className="hero-title fade-up delay-1">
             THE<br />
-            <span className="red">BLAME</span><br />
-            ENGINE
+            <span className="red">TARZAN</span>
           </h1>
           <p className="hero-subtitle fade-up delay-2">
             The first F1 platform where <strong>fans generate intelligence teams actually need.</strong>{" "}
@@ -947,11 +953,11 @@ function Landing({ setPage }) {
       </div>
 
       <footer className="footer">
-        <div className="footer-logo">BLAME<span style={{ color: "var(--red)" }}>ENGINE</span></div>
+        <div className="footer-logo">TARZAN<span style={{ color: "var(--red)" }}></span></div>
         <div className="footer-links">
           {["API Docs", "Architecture", "GitHub", "Privacy", "Terms"].map(l => <div key={l} className="footer-link">{l}</div>)}
         </div>
-        <div className="footer-copy">© 2025 BlameEngine. Data: FastF1, Ergast API, OpenF1.</div>
+        <div className="footer-copy">© 2025 Tarzan. Data: FastF1, Ergast API, OpenF1.</div>
       </footer>
     </div>
   );
@@ -1843,7 +1849,7 @@ function AuthModal({ mode, setMode, onClose, onLogin }) {
     <div className="auth-modal" onClick={onClose}>
       <div className="auth-card" style={{ position: "relative" }} onClick={e => e.stopPropagation()}>
         <button className="auth-close" onClick={onClose}>✕</button>
-        <div className="auth-title">{mode === "login" ? "Sign In" : "Join BlameEngine"}</div>
+        <div className="auth-title">{mode === "login" ? "Sign In" : "Join Tarzan"}</div>
         <div className="auth-sub">{mode === "login" ? "Access your pit wall." : "Start generating intelligence."}</div>
         {mode === "signup" && (
           <div className="form-group">
@@ -1909,7 +1915,7 @@ export default function App() {
       <nav className="nav">
         <div className="nav-logo" onClick={() => setPage("home")}>
           <div className="dot" />
-          BLAME<span>ENGINE</span>
+          <span>TARZAN</span>
         </div>
         <div className="nav-links">
           {navItems.map(item => (
@@ -1949,3 +1955,4 @@ export default function App() {
     </>
   );
 }
+
