@@ -1,0 +1,262 @@
+{
+  "season": 2024,
+  "tracks": {
+    "Monaco": {
+      "gp_name": "Monaco",
+      "fastest_lap": 74.165,
+      "median_lap": 78.201,
+      "sectors": {
+        "s1_best": 19.343,
+        "s2_best": 34.842,
+        "s3_best": 19.7
+      },
+      "deg_curves": {
+        "SOFT": {
+          "deg_per_lap_seconds": 1532.6576,
+          "base_lap_time": 76.737,
+          "cliff_age": 7,
+          "sample_count": 27,
+          "poly_coeffs": [
+            -0.001301,
+            0.111436,
+            76.627307
+          ]
+        },
+        "MEDIUM": {
+          "deg_per_lap_seconds": 1508.672,
+          "base_lap_time": 75.577,
+          "cliff_age": 7,
+          "sample_count": 154,
+          "poly_coeffs": [
+            -0.001808,
+            0.152873,
+            75.425954
+          ]
+        },
+        "HARD": {
+          "deg_per_lap_seconds": 1512.5923,
+          "base_lap_time": 75.751,
+          "cliff_age": 7,
+          "sample_count": 385,
+          "poly_coeffs": [
+            -0.001545,
+            0.129574,
+            75.623137
+          ]
+        }
+      },
+      "pit_stops": {
+        "mean": 24.0,
+        "min": 21.0,
+        "std": 1.5
+      },
+      "sc_laps": 1,
+      "vsc_laps": 0,
+      "total_laps": 78,
+      "weather": {
+        "had_rain": false,
+        "max_rainfall": 0
+      },
+      "drs_gain_kmh": 10.0
+    },
+    "Silverstone": {
+      "gp_name": "British",
+      "fastest_lap": 88.293,
+      "median_lap": 91.989,
+      "sectors": {
+        "s1_best": 28.55,
+        "s2_best": 35.591,
+        "s3_best": 23.979
+      },
+      "deg_curves": {
+        "SOFT": {
+          "deg_per_lap_seconds": 1854.4738,
+          "base_lap_time": 92.361,
+          "cliff_age": 7,
+          "sample_count": 144,
+          "poly_coeffs": [
+            0.022419,
+            -0.405577,
+            92.743969
+          ]
+        },
+        "MEDIUM": {
+          "deg_per_lap_seconds": 1844.6316,
+          "base_lap_time": 92.173,
+          "cliff_age": 7,
+          "sample_count": 374,
+          "poly_coeffs": [
+            0.004186,
+            -0.06657,
+            92.23491
+          ]
+        },
+        "HARD": {
+          "deg_per_lap_seconds": 1838.4883,
+          "base_lap_time": 91.521,
+          "cliff_age": 7,
+          "sample_count": 38,
+          "poly_coeffs": [
+            0.031782,
+            -0.45772,
+            91.947303
+          ]
+        }
+      },
+      "pit_stops": {
+        "mean": 24.0,
+        "min": 21.0,
+        "std": 1.5
+      },
+      "sc_laps": 0,
+      "vsc_laps": 0,
+      "total_laps": 52,
+      "weather": {
+        "had_rain": true,
+        "max_rainfall": 1.0
+      },
+      "drs_gain_kmh": 10.0
+    },
+    "Suzuka": {
+      "gp_name": "Japanese",
+      "fastest_lap": 93.706,
+      "median_lap": 97.335,
+      "sectors": {
+        "s1_best": 33.31,
+        "s2_best": 42.024,
+        "s3_best": 18.161
+      },
+      "deg_curves": {
+        "SOFT": {
+          "deg_per_lap_seconds": 1944.5869,
+          "base_lap_time": 97.306,
+          "cliff_age": 7,
+          "sample_count": 52,
+          "poly_coeffs": [
+            -0.00481,
+            0.086222,
+            97.225032
+          ]
+        },
+        "MEDIUM": {
+          "deg_per_lap_seconds": 1938.9514,
+          "base_lap_time": 97.002,
+          "cliff_age": 7,
+          "sample_count": 232,
+          "poly_coeffs": [
+            -0.000774,
+            0.058436,
+            96.944646
+          ]
+        },
+        "HARD": {
+          "deg_per_lap_seconds": 1935.8464,
+          "base_lap_time": 96.846,
+          "cliff_age": 7,
+          "sample_count": 470,
+          "poly_coeffs": [
+            -0.00159,
+            0.058501,
+            96.789393
+          ]
+        }
+      },
+      "pit_stops": {
+        "mean": 24.0,
+        "min": 21.0,
+        "std": 1.5
+      },
+      "sc_laps": 0,
+      "vsc_laps": 0,
+      "total_laps": 53,
+      "weather": {
+        "had_rain": false,
+        "max_rainfall": 0
+      },
+      "drs_gain_kmh": 20
+    }
+  },
+  "drivers": {
+    "RUS": {
+      "best_lap": 85.819,
+      "gap_to_fastest": 0.0,
+      "pace_rating": 0.99
+    },
+    "HAM": {
+      "best_lap": 85.99,
+      "gap_to_fastest": 0.171,
+      "pace_rating": 0.974
+    },
+    "NOR": {
+      "best_lap": 86.03,
+      "gap_to_fastest": 0.211,
+      "pace_rating": 0.97
+    },
+    "VER": {
+      "best_lap": 86.203,
+      "gap_to_fastest": 0.384,
+      "pace_rating": 0.954
+    },
+    "PIA": {
+      "best_lap": 86.237,
+      "gap_to_fastest": 0.418,
+      "pace_rating": 0.951
+    },
+    "HUL": {
+      "best_lap": 86.338,
+      "gap_to_fastest": 0.519,
+      "pace_rating": 0.942
+    },
+    "SAI": {
+      "best_lap": 86.509,
+      "gap_to_fastest": 0.69,
+      "pace_rating": 0.926
+    },
+    "STR": {
+      "best_lap": 86.585,
+      "gap_to_fastest": 0.766,
+      "pace_rating": 0.919
+    },
+    "ALB": {
+      "best_lap": 86.64,
+      "gap_to_fastest": 0.821,
+      "pace_rating": 0.913
+    },
+    "ALO": {
+      "best_lap": 86.73,
+      "gap_to_fastest": 0.911,
+      "pace_rating": 0.905
+    },
+    "LEC": {
+      "best_lap": 87.097,
+      "gap_to_fastest": 1.278,
+      "pace_rating": 0.871
+    },
+    "SAR": {
+      "best_lap": 87.175,
+      "gap_to_fastest": 1.356,
+      "pace_rating": 0.864
+    },
+    "TSU": {
+      "best_lap": 87.269,
+      "gap_to_fastest": 1.45,
+      "pace_rating": 0.855
+    },
+    "ZHO": {
+      "best_lap": 87.867,
+      "gap_to_fastest": 2.048,
+      "pace_rating": 0.8
+    },
+    "RIC": {
+      "best_lap": 87.949,
+      "gap_to_fastest": 2.13,
+      "pace_rating": 0.8
+    }
+  },
+  "meta": {
+    "extracted_at": "2026-02-23T15:12:49.684956",
+    "season": 2024,
+    "source": "FastF1",
+    "note": "Real telemetry data \u2014 drop f1_real_data.json into frontend/src/"
+  }
+}
